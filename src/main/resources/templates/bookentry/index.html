@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <div th:replace="/fragments/styling :: head-style"></div>
+
+    <title>Address Book</title>
+</head>
+<body>
+<!--NAVBAR-->
+<div th:replace="fragments/navbar :: navbar"></div>
+
+<div class="container">
+
+    <!-- Add an entry -->
+    <div class="container">
+        <a href="#" th:href="@{bookentry/new/}">
+            <button class="btn btn-dark btn-lg btn-block">Add an entry</button>
+        </a>
+    </div>
+
+
+    <!-- Remove an entry -->
+    <div class="container">
+        <a href="#" th:href="@{bookentry/delete/}">
+            <button class="btn btn-dark btn-lg btn-block">Remove an entry</button>
+        </a>
+    </div>
+
+    <!-- Search for entry -->
+    <div class="container">
+        <a href="#">
+            <button class="btn btn-dark btn-lg btn-block">Search for entry</button>
+        </a>
+    </div>
+
+    <!--  Print Address Book -->
+    <div class="container">
+        <a href="#">
+            <button class="btn btn-dark btn-lg btn-block">Print Address Book</button>
+        </a>
+    </div>
+
+    <!-- Delete contents of the address book  -->
+    <div class="container">
+        <a href="#">
+            <button class="btn btn-danger btn-lg btn-block">Delete contents of the address book</button>
+        </a>
+    </div>
+</div>
+
+
+<div th:replace="/fragments/styling :: body-links"></div>
+</body>
+</html>

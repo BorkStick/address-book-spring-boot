@@ -12,7 +12,7 @@
 	<artifactId>address-book</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>address-book</name>
-	<description>Address </description>
+	<description>Address-Book</description>
 	<properties>
 		<java.version>16</java.version>
 	</properties>

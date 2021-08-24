@@ -1,4 +1,4 @@
-package tech.tylor.address.book;
+package tech.tylor.addressbook.book;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
